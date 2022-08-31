@@ -1,6 +1,6 @@
 <h1 align="center">Welcome to python anti debugger 👋</h1>
 <p align="center">
-  <img src="https://img.shields.io/badge/version-2.2.0-blue.svg?cacheSeconds=2592000" >
+  <img src="https://img.shields.io/badge/version-2.3.0-blue.svg?cacheSeconds=2592000" >
   <img src="https://img.shields.io/badge/Maintained%3F-kinda-yellow.svg" >
   <img src="https://img.shields.io/github/last-commit/6nz/python-anti-debugger">
 </p>
@@ -10,7 +10,7 @@
 
 ## :dart: 〢 About ##
 
-> Do not scan the file with any anti-virus otherwise, it will become detected and rendered useless!
+> Do not scan the payload with any antivirus software, or it will be detected and rendered useless!
 
 Basic but very handy protection against debuggers and much more <br>
 
@@ -30,22 +30,24 @@ Before starting :checkered_flag:, you are required to have [Python 3.8.0+](https
 
 ### Installation ###
 
-Below is how to setup and create a payload.
+To set up your anti debugger, follow these steps:
 
 1. Download or clone the repository
 
 2. Enter your Webhook/API url in `main.py`
 ```python
-api = "ENTER_URL_HERE"
+self.api = "URL_HERE"
 ```
 
-4. Run `main.py`
+3. Your script is ready to go!
 
 > Any problems? Create an issue!
 
 
 ## :pushpin: 〢 Todo/Enhancements ##
 
+- [x] Created a class version for easier use
+- [x] Cleaned the code and removed uneeded shit
 - [x] Kill anti debug proccess instead of closing program
 - [x] Clean code some more
 - [x] Remove all print statements (to hide program output)
@@ -54,8 +56,8 @@ api = "ENTER_URL_HERE"
 
 ## 👤 〢 Author ##
 
- 👤 **6nz** 
- 👤 **Callumgm** (little cleanup) 
+ 👤 **6nz** <br>
+ 👤 **Callumgm** (contributor)
    
 
 
