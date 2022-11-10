@@ -1,5 +1,6 @@
 import sys, os, re, ctypes, subprocess, requests, uuid, wmi, psutil, time, httpx, platform, win32api, win32process
 from datetime import datetime
+from aes256 import encstr
 from threading import Thread
 from ctypes import *
 
