@@ -1,5 +1,6 @@
 requests
 psutil
 wmi
+aes256
 win32api
 win32process
